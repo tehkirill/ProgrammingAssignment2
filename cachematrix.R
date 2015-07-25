@@ -16,7 +16,6 @@ makeCacheMatrix <- function(x = matrix()) {
        getinverse = getinverse)
 }
 
-
 cacheSolve <- function(x, ...) {
   inv <- x$getinverse()
   
